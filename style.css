@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    margin: 2rem;
+
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+inpute,
+label{
+    display: block;
+}
+
+input{
+    margin-bottom:0.5rem;
+    width: 100%;
+
+}
+
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    
+}
