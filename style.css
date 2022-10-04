@@ -9,7 +9,7 @@
 html {
     background-color: var(--background-dark);
     color: var(--primary-green);
-    height: 100%;
+    padding: 2rem;
 }
 
 * {
@@ -22,7 +22,7 @@ html {
 }
 
 .container {
-    width: 300px;
+    width: 200px;
     margin: auto auto;
 }
 
@@ -44,14 +44,14 @@ input {
 }
 
 #calculate-number {
-    margin: 0.5rem auto;
+    margin: 2rem auto;
     display: block;
 }
 
 #calculate-number {
     background-color: transparent;
     color: var(--primary-green);
-    padding: 0.5rem 0.7rem;
+    padding: rem 0.7rem;
     border-color: turquoise;
     border-width: medium;
     border-radius: 5px;
@@ -71,7 +71,7 @@ input {
     margin-top: 1rem;
     width: 100%;
     text-align: center;
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: large;
     border-color: var(--primary-green);
     border-width: medium;
