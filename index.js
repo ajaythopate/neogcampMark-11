@@ -2,6 +2,7 @@ const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#calculate-number");
 const displayMessage = document.querySelector("#output-container");
+const errMsg = document.querySelector("#errMsg");
 
 const calculateSum = (date) => {
     let sum = 0;
@@ -38,4 +39,15 @@ const handleAllCalculations = () => {
     }
 
 }
+
+const handleKeyUp = () => {
+    if (luckyNumber.value < 0) {
+        errMsg.innerHTML = "Negative value is not allowed."
+        checkButton.disabled = true;
+    } else {
+        errMsg.innerHTML = "";
+        checkButton.disabled = false;
+    }
+}
 checkButton.addEventListener("click", handleAllCalculations);
+luckyNumber.addEventListener('keyup', handleKeyUp)

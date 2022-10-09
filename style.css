@@ -77,4 +77,9 @@ input {
     border-width: medium;
     border-radius: 5px;
     background-color: white;
-}   
+}
+
+#errMsg {
+    color: red;
+    font-size: 15px;
+}
